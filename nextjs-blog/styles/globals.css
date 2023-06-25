@@ -36,3 +36,10 @@ button {
   padding: 0.5rem 1rem;
   font-weight: bold;
 }
+
+.bg-danger{
+  background-color: red;
+}
+.bg-success{
+  background-color: green;
+}

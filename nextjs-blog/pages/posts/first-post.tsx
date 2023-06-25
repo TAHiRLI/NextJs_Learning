@@ -3,10 +3,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
 import Layout from '../../components/layout';
+import { clsx } from 'clsx';
 
-const FirstPost:React.FC = ()=> {
+
+const FirstPost= ()=> {
   return (
-    <Layout>
+    <Layout bgColor={"bg-danger"}>
     <Head>
       <title>Postlar</title>
     </Head>
